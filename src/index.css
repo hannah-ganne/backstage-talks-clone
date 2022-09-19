@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 html {
   box-sizing: border-box;
 	scroll-snap-type: y mandatory;
@@ -10,29 +12,35 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  background: #FFFFFF;
   transition: background-color 500ms ease-out 200ms;
 }
-
-body.issue5 {
+body.issue-6 {
+  background: #FFFFFF;
+}
+body.issue-5 {
   background: #00c1b5;
 }
-body.issue4 {
+body.issue-4 {
   background: #ff6519;
 }
-body.issue3 {
+body.issue-3 {
   background: #ffbe00;
 }
-body.issue2 {
+body.issue-2 {
   background: #1d3fbb;
 }
-body.issue1 {
+body.issue-1 {
   background: #E30512;
+}
+
+body.issue-5 section a,
+body.issue-4 section a,
+body.issue-3 section a,
+body.issue-2 section a,
+body.issue-1 section a {
+  color: white;
 }
 
 a {
