@@ -1,13 +1,45 @@
-body {
+html {
+  box-sizing: border-box;
+	scroll-snap-type: y mandatory;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
   margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF;
+  transition: background-color 500ms ease-out 200ms;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body.issue5 {
+  background: #00c1b5;
+}
+body.issue4 {
+  background: #ff6519;
+}
+body.issue3 {
+  background: #ffbe00;
+}
+body.issue2 {
+  background: #1d3fbb;
+}
+body.issue1 {
+  background: #E30512;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: underline;
 }
