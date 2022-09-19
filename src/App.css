@@ -10,8 +10,13 @@ header {
   padding: 15px;
 }
 
-header h1 {
-  margin: 0;
+header img {
+  width: 260px;
+}
+
+header a {
+  font-weight: bold;
+  font-size: 18px;
 }
 
 footer {
@@ -22,6 +27,23 @@ footer {
   position: fixed;
   bottom: 0px;
   font-weight: bold;
+}
+
+footer p {
+  margin-top: 10px;
+}
+
+footer p:first-child {
+  font-size: 18px;
+}
+
+footer p:nth-child(2) {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+footer p:last-child {
+  font-weight: normal;
 }
 
 nav {
@@ -45,6 +67,7 @@ section {
 
 section p {
   font-size: 18px;
+  margin-bottom: 15px;
 }
 
 section img {
