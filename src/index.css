@@ -16,30 +16,30 @@ body {
   background: #FFFFFF;
   transition: background-color 500ms ease-out 200ms;
 }
-body.issue-6 {
+body.issue6 {
   background: #FFFFFF;
 }
-body.issue-5 {
+body.issue5 {
   background: #00c1b5;
 }
-body.issue-4 {
+body.issue4 {
   background: #ff6519;
 }
-body.issue-3 {
+body.issue3 {
   background: #ffbe00;
 }
-body.issue-2 {
+body.issue2 {
   background: #1d3fbb;
 }
-body.issue-1 {
+body.issue1 {
   background: #E30512;
 }
 
-body.issue-5 section a,
-body.issue-4 section a,
-body.issue-3 section a,
-body.issue-2 section a,
-body.issue-1 section a {
+body.issue5 section a,
+body.issue4 section a,
+body.issue3 section a,
+body.issue2 section a,
+body.issue1 section a {
   color: white;
 }
 
