@@ -10,7 +10,7 @@ export default function Footer() {
                     © 2022 Published by studio Milk
                 </p>
                 <p>
-                    This is an unofficial website: <br />Clone coding project by Hannah Ganne
+                    This is an unofficial website: <br />Clone project by Hannah Ganne
                 </p>
             </div>
         </footer>

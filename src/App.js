@@ -24,7 +24,7 @@ function App() {
         <Cover issue="1" imgSrc={issue1} />
       </div>
       <Footer />
-      <Nav />
+      {/* <Nav /> */}
     </>
   )
 }
