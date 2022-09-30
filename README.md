@@ -1,4 +1,4 @@
-# Ableton
+# Backstage Talks
 
 This is the clone project from [Frontend Practice](https://www.frontendpractice.com/projects/backstage-talks).
 Click here to see it live => [Backstage Talks Demo](https://hannah-ganne.github.io/backstage-talks-clone/)
