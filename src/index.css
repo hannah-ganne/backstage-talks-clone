@@ -2,7 +2,7 @@
 
 html {
   box-sizing: border-box;
-	scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
 }
 
 *, *:before, *:after {
