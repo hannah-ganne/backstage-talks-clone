@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/backstage-talks-clone/static/css/main.a074a055.css",
+    "main.js": "/backstage-talks-clone/static/js/main.7c8f23a6.js",
+    "static/media/backstagetalks_cover_issue_6.png": "/backstage-talks-clone/static/media/backstagetalks_cover_issue_6.167813af2c961292d28f.png",
+    "static/media/backstagetalks_cover_issue_5.png": "/backstage-talks-clone/static/media/backstagetalks_cover_issue_5.1f520dcf7d7d4b079b28.png",
+    "static/media/backstagetalks_cover_issue_4.png": "/backstage-talks-clone/static/media/backstagetalks_cover_issue_4.dfba35aaee1a292a53d0.png",
+    "static/media/backstagetalks_cover_issue_3.png": "/backstage-talks-clone/static/media/backstagetalks_cover_issue_3.345528d1f2fdbad67e6b.png",
+    "static/media/backstagetalks_cover_issue_2.png": "/backstage-talks-clone/static/media/backstagetalks_cover_issue_2.7627d576b39e62852c94.png",
+    "static/media/backstagetalks_cover_issue_1.png": "/backstage-talks-clone/static/media/backstagetalks_cover_issue_1.dc0dce4c09e077f05767.png",
+    "index.html": "/backstage-talks-clone/index.html",
+    "main.a074a055.css.map": "/backstage-talks-clone/static/css/main.a074a055.css.map",
+    "main.7c8f23a6.js.map": "/backstage-talks-clone/static/js/main.7c8f23a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a074a055.css",
+    "static/js/main.7c8f23a6.js"
+  ]
+}
