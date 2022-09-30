@@ -1,4 +1,5 @@
 import { useRef, useState, useEffect } from 'react'
+import Nav from './Nav'
 
 export default function Cover({ issue, imgSrc }) {
     const containerRef = useRef(null)
@@ -30,11 +31,13 @@ useEffect(() => {
 }, [containerRef, options])
 
     return (
-        <section id={`issue${issue}`} ref={containerRef}>
-            <img src={imgSrc} alt={`cover of backstage talks issue ${issue}`} />
-            <p>{`Issue #${issue}`}</p>
-            <a href={`https://www.bruil.info/product/backstage-talks-${issue}/`}>BUY HERE</a>
-            <div>or in <a href="https://backstagetalks.com/stocklist.php">seleted stores</a></div>
-        </section>
+        <>
+            <section id={`issue${issue}`} ref={containerRef}>
+                <img src={imgSrc} alt={`cover of backstage talks issue ${issue}`} />
+                <p>{`Issue #${issue}`}</p>
+                <a href={`https://www.bruil.info/product/backstage-talks-${issue}/`}>BUY HERE</a>
+                <div>or in <a href="https://backstagetalks.com/stocklist.php">seleted stores</a></div>
+            </section>
+        </>
     )
 }
